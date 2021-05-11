@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", monospace, sans-serif;
+}
+
+.body {
+  position: relative;
+  background-color: #222;
+}
+
+.section {
+  background: black;
+}
+
+#landing {
+  background-image: url(../images/arianna-giavardi-TxZQ05sjd_8-unsplash.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+.landing-heading {
+  position: absolute;
+  bottom: 20%;
+  left: 2%;
+  font-size: 55px;
+  color: white;
+  font-family: "Krona One", sans-serif;
+  text-shadow: 2px 1px black;
+}
+
+.my-name {
+  color: transparent;
+  font-size: 55px;
+  -webkit-text-stroke: 1px white;
+  font-family: "Krona One";
+}
+
+.down-button {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+}
+
+#about-me {
+  padding: 10px 10%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20vh auto auto 1fr 1fr;
+  grid-row-gap: 20px;
+}
+
+.about-heading {
+  grid-row: 1;
+  grid-column: 1/8;
+  align-self: center;
+}
+
+.about-heading h1 {
+  font-size: 20px;
+}
+
+.about-heading h2 {
+  font-size: 40px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-family: "Krona One";
+}
+
+.about-desc1 {
+  grid-row: 2;
+  grid-column: 7/10;
+  justify-self: center;
+}
+
+.about-desc2 {
+  grid-row: 3;
+  grid-column: 9/12;
+  justify-self: center;
+}
+
+#skills {
+  height: auto;
+  padding: 10px 10%;
+  background-color: black;
+}
+
+.skill-heading {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto;
+  padding: 10px 0;
+}
+
+.skill-heading h1 {
+  grid-column: 12;
+  grid-row: 1;
+  font-size: 20px;
+  justify-self: flex-end;
+  color: white;
+}
+
+.skill-heading h2 {
+  grid-column: 12;
+  grid-row: 2;
+  font-size: 40px;
+  font-family: "Krona One";
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.soft-skills-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 20vh auto 20vh;
+  color: white;
+}
+
+.soft-skills-container h3 {
+  grid-row: 2;
+  grid-column: 2;
+  justify-self: end;
+  font-size: 30px;
+}
+
+.soft-skills-list {
+  grid-row: 2/3;
+  grid-column: 4;
+  justify-self: center;
+  font-size: 20px;
+}
+
+.soft-skills-list ul {
+  padding-left: 20px;
+  border-left: 1px solid white;
+}
+
+.soft-skills-list ul li {
+  list-style-type: none;
+}
+
+.code-skills-container {
+  display: grid;
+  grid-template-rows: 10vh auto 10vh 20vh;
+  grid-template-columns: repeat(12, 1fr);
+  color: white;
+}
+
+.code-skills-container h3 {
+  grid-row: 2;
+  font-size: 30px;
+  grid-column: 5;
+}
+
+.code-skills-container i {
+  font-size: 30px;
+}
+
+.htmlicon {
+  grid-row: 1;
+  grid-column: 9;
+  align-self: center;
+}
+
+.cssicon {
+  grid-row: 3;
+  grid-column: 10;
+  align-self: center;
+}
+
+.pythonicon {
+  grid-row: 3;
+  grid-column: 8;
+  align-self: center;
+}
+
+#projects {
+  height: 100vh;
+  background-color: brown;
+}
+
+#testimonial {
+  height: 100vh;
+  background-color: blue;
+}
