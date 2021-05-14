@@ -1,0 +1,180 @@
+@media screen and (max-width: 770px) {
+  .navbar {
+    top: 30px;
+  }
+
+  .landing-heading,
+  .landing-heading span {
+    font-size: 40px;
+  }
+
+  .about-heading h2,
+  .w-and-e-heading h2,
+  .skill-heading h2,
+  .project-heading h2,
+  .testimonial-heading h2,
+  .contact-heading h2 {
+    font-size: 30px;
+  }
+
+  #about-me {
+    grid-template-rows: 20vh 300px auto auto 1fr 1fr;
+  }
+
+  .about-desc1,
+  .about-desc2 {
+    grid-column: 3/10;
+  }
+
+  .imageofme {
+    width: 190px;
+    height: 190px;
+    grid-row: 2;
+    grid-column: 4/10;
+    border-radius: 50%;
+    place-self: center;
+    border: 10px solid rgb(26, 26, 26);
+  }
+
+  .about-desc1 {
+    grid-row: 3;
+  }
+
+  .about-desc2 {
+    grid-row: 4;
+  }
+
+  .education div,
+  .workexperience2 div {
+    grid-column: 6/12;
+  }
+
+  .soft-skills-container h3 {
+    grid-row: 1;
+    grid-column: 9;
+  }
+
+  .soft-skills-list {
+    grid-column: 8/12;
+  }
+
+  .code-skills-container h3 {
+    grid-row: 1;
+    grid-column: 8/9;
+  }
+
+  .htmlicon,
+  .spin2 {
+    grid-row: 4;
+    grid-column: 8/9;
+  }
+
+  .pythonicon,
+  .spin1 {
+    grid-row: 4;
+    grid-column: 4;
+  }
+
+  .cssicon,
+  .spin3 {
+    grid-row: 4;
+    grid-column: 11/12;
+    place-self: center;
+  }
+
+  .hproject1,
+  .hproject2,
+  .hproject3,
+  .pproject1,
+  .pproject2,
+  .pproject3 {
+    margin-bottom: 100px;
+  }
+
+  .hproject1 img,
+  .hproject2 img,
+  .hproject3 img {
+    margin-top: 100px;
+    width: 210px;
+    grid-row: 3;
+    grid-column: 1/12;
+    justify-self: center;
+    place-self: center;
+    padding-left: 10px;
+    border-left: 1px solid white;
+  }
+
+  .html-pro-content {
+    grid-row: 1;
+    grid-column: 1/12;
+    place-self: center;
+  }
+
+  .pproject1 img,
+  .pproject2 img,
+  .pproject3 img {
+    margin-top: 100px;
+    width: 210px;
+    grid-row: 3;
+    grid-column: 1/12;
+
+    place-self: center;
+    padding-left: 10px;
+    border-left: 1px solid white;
+  }
+
+  .py-pro-content {
+    grid-row: 1;
+    grid-column: 1/12;
+    place-self: center;
+  }
+
+  .testimonial-container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto auto auto 10vh;
+    grid-row-gap: 30vh;
+  }
+  .testimonial1 {
+    grid-row: 1;
+    grid-column: 1/12;
+  }
+  .testimonial2 {
+    grid-row: 2;
+    grid-column: 1/12;
+  }
+
+  .testimonial2 {
+    margin-bottom: 7vh;
+  }
+
+  .testimonial3 {
+    grid-row: 3;
+    grid-column: 1/12;
+    margin-bottom: 5vh;
+  }
+  .testimonial4 {
+    grid-row: 4;
+    grid-column: 1/12;
+    margin-bottom: 15vh;
+  }
+  .testimonial5 {
+    grid-row: 5;
+    grid-column: 1/12;
+  }
+
+  .form {
+    grid-column: 2/12;
+  }
+
+  .footer-fodder span {
+    grid-column: 1/6;
+  }
+
+  .git {
+    grid-column: 7;
+  }
+
+  .lnkin {
+    grid-column: 9;
+  }
+}
