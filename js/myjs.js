@@ -4,10 +4,12 @@
     smooth: true,
     scrollFromAnywhere: true,
     smartphone:{
-      smooth:true
+      smooth:true,
+      scrollFromAnywhere:true,
     },
     tablet:{
-      smooth:true
+      smooth:true,
+      scrollFromAnywhere:true,
     },
   });
 })();
