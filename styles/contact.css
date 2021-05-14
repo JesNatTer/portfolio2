@@ -1,0 +1,140 @@
+#contact {
+  padding: 10px 10%;
+  background-color: black;
+  color: white;
+}
+
+.contact-heading {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-row: auto auto;
+  padding: 10px;
+}
+
+.contact-heading h1 {
+  font-size: 23px;
+  grid-row: 1;
+  grid-column: 12;
+  text-align: end;
+}
+
+.contact-heading h2 {
+  font-size: 40px;
+  grid-row: 2;
+  grid-column: 12;
+  font-family: "Krona One";
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 10vh auto 10vh;
+}
+
+.form {
+  grid-row: 2;
+  grid-column: 3/7;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-row-gap: 30px;
+}
+
+::placeholder {
+  color: rgb(197, 197, 197);
+  font-size: 24px;
+}
+
+.form-label {
+  display: none;
+}
+
+.form-header {
+  font-size: 20px;
+  grid-row: 1;
+  grid-column: 1/12;
+}
+
+.form-name {
+  grid-row: 2;
+  grid-column: 1/12;
+}
+
+.form-name input {
+  border: none;
+  background-color: transparent;
+  padding-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.form-email {
+  grid-row: 3;
+  grid-column: 1/12;
+}
+
+.form-email input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.form-number {
+  grid-row: 4;
+  grid-column: 1/12;
+}
+
+.form-number input {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+.form-textarea {
+  grid-row: 5;
+  grid-column: 1/12;
+}
+
+.form-textarea textarea {
+  border: none;
+  background-color: transparent;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+.form-button {
+  grid-row: 6;
+  grid-column: 1/12;
+  justify-self: center;
+}
+
+.form-button button {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  transition: 0.5s linear;
+  font-size: 15px;
+}
+
+.form-button button:hover {
+  background-color: yellow;
+  border: 2px solid #222;
+  color: black;
+}
