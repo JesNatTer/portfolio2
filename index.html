@@ -7,9 +7,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/locomotive-scroll.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <main data-scroll-container>
+      <div class="navbar">
+        <ul class="navs">
+          <li>
+            <a href="#landing" data-scroll-to> H. </a>
+          </li>
+          <li>
+            <a href="#about-me" data-scroll-to>01.</a>
+          </li>
+          <li>
+            <a href="#w-and-e" data-scroll-to>02.</a>
+          </li>
+          <li>
+            <a href="#skills" data-scroll-to>03.</a>
+          </li>
+          <li>
+            <a href="#projects" data-scroll-to>04.</a>
+          </li>
+          <li>
+            <a href="#testimonial" data-scroll-to>05.</a>
+          </li>
+          <li>
+            <a href="#contact" data-scroll-to>06.</a>
+          </li>
+        </ul>
+      </div>
       <div data-scroll-section id="landing">
         <div>
           <h1 data-scroll data-scroll-speed="2" class="landing-heading">
@@ -27,10 +53,19 @@
           <h1>01.</h1>
           <h2>About Me</h2>
         </div>
+        <img
+          data-scroll
+          data-scroll-speed="-2"
+          data-scroll-direction="vertical"
+          data-scroll-target="#about-me"
+          class="imageofme"
+          src="./images/C8 Apr21 Jesse Terblanche (1).JPG"
+          alt=""
+        />
         <div id="direction" class="about-desc1">
           <p
             data-scroll
-            data-scroll-speed="-2"
+            data-scroll-speed="-1"
             data-scroll-direction="horizontal"
             data-scroll-target="#direction"
           >
@@ -44,7 +79,7 @@
         <div class="about-desc2">
           <p
             data-scroll
-            data-scroll-speed="2"
+            data-scroll-speed="1"
             data-scroll-direction="horizontal"
             data-scroll-target="#direction"
           >
@@ -62,7 +97,7 @@
         </div>
         <div
           data-scroll
-          data-scroll-speed="-2"
+          data-scroll-speed="-1"
           data-scroll-direction="horizontal"
           data-scroll-target="#w-and-e"
           class="education"
@@ -75,7 +110,7 @@
         </div>
         <div
           data-scroll
-          data-scroll-speed="2"
+          data-scroll-speed="1"
           data-scroll-direction="horizontal"
           data-scroll-target="#w-and-e"
           class="workexperience1"
@@ -91,7 +126,7 @@
         </div>
         <div
           data-scroll
-          data-scroll-speed="-2"
+          data-scroll-speed="-1"
           data-scroll-direction="horizontal"
           data-scroll-target="#w-and-e"
           class="workexperience2"
@@ -110,7 +145,7 @@
         </div>
         <div
           data-scroll
-          data-scroll-speed="-2"
+          data-scroll-speed="-1"
           data-scroll-direction="horizontal"
           data-scroll-target="#skills"
           class="soft-skills-container"
@@ -128,7 +163,7 @@
         </div>
         <div
           data-scroll
-          data-scroll-speed="2"
+          data-scroll-speed="1"
           data-scroll-direction="horizontal"
           data-scroll-target="#skills"
           class="code-skills-container"
@@ -235,8 +270,8 @@
           <div class="testimonial1">
             <img src="./images/Godwin.png" alt="Image of Godwin" />
             <div class="testimonial-content">
-              <h3>Godwin</h3>
-              <h4>Lecturer</h4>
+              <h3>Godwin Dzvapatsva</h3>
+              <h4>Head of Curriculum and Learning</h4>
               <q
                 >I can see that Jesse has many strengths as a student. I always
                 love the effort he puts forth whenever he participates in class.
@@ -263,41 +298,54 @@
             </div>
           </div>
           <div class="testimonial3">
-            <img src="./images/Godwin.png" alt="Image of Godwin" />
+            <img
+              src="./images/Life-Choices-Academy-About-Us-Team-Member-Thapelo.jpg"
+              alt="Image of Godwin"
+            />
             <div class="testimonial-content">
-              <h3>Godwin</h3>
+              <h3>Thapelo Tsotetsi</h3>
               <h4>Lecturer</h4>
               <q
-                >I can see that Jesse has many strengths as a student. I always
-                love the effort he puts forth whenever he participates in class.
-                It's a pleasure seeing Jesse learn as a student, and I hope he
-                continues to work hard.
+                >Jesse is one of the best student at Lifechoices Coding Academy.
+                He has great communication and intellectual skills. Jesse is
+                able to learn new programming tools quickly. I highly recommend
+                him a position where he gets to work on both the back-end and
+                front-end.
               </q>
             </div>
           </div>
           <div class="testimonial4">
-            <img src="./images/Godwin.png" alt="Image of Godwin" />
+            <img
+              src="./images/C8 Apr21 Zoe Strachan (3).JPG"
+              alt="Image of Godwin"
+            />
             <div class="testimonial-content">
-              <h3>Godwin</h3>
-              <h4>Lecturer</h4>
+              <h3>Zoe Strachan</h3>
+              <h4>Peer</h4>
               <q
-                >I can see that Jesse has many strengths as a student. I always
-                love the effort he puts forth whenever he participates in class.
-                It's a pleasure seeing Jesse learn as a student, and I hope he
-                continues to work hard.
+                >If you have knowledge, let others light their candles in it."-
+                Margaret Fuller. Jesse has often been described as a sensei and
+                g.o.a.t by his peers and deservedly so as he's always lending a
+                helping hand whenever asked. Jesse is already a top achiever but
+                it's his willingness to share his knowledge that speaks to his
+                character. He will be an invaluable asset wherever he decides to
+                go next.
               </q>
             </div>
           </div>
           <div class="testimonial5">
-            <img src="./images/Godwin.png" alt="Image of Godwin" />
+            <img
+              src="./images/C8 Apr21 Kiyaamodien Khan (2).JPG"
+              alt="Image of Godwin"
+            />
             <div class="testimonial-content">
-              <h3>Godwin</h3>
-              <h4>Lecturer</h4>
+              <h3>Kiyaamodien Khan</h3>
+              <h4>Peer</h4>
               <q
-                >I can see that Jesse has many strengths as a student. I always
-                love the effort he puts forth whenever he participates in class.
-                It's a pleasure seeing Jesse learn as a student, and I hope he
-                continues to work hard.
+                >Jesse is the defintion of hard-working and is always there to
+                lend a helping hand. I couldn't think of a more reliable friend,
+                colleague or peer than him. His progress in his work in
+                unrivaled and it reflects in his success.
               </q>
             </div>
           </div>
@@ -392,6 +440,7 @@
         </div>
       </div>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://kit.fontawesome.com/1e2396cf96.js"
       crossorigin="anonymous"
