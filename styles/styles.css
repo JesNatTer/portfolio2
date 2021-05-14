@@ -1103,8 +1103,8 @@ body {
 
   .imageofme {
     width: 100%;
-    grid-row: 2/5;
-    grid-column: 6/12;
+    grid-row: 3/5;
+    grid-column: 5/11;
   }
 
   .education div,
@@ -1207,16 +1207,18 @@ body {
   }
 
   .testimonial2 {
-    margin-bottom: 10vh;
+    margin-bottom: 7vh;
   }
 
   .testimonial3 {
     grid-row: 3;
     grid-column: 1/12;
+    margin-bottom: 5vh;
   }
   .testimonial4 {
     grid-row: 4;
     grid-column: 1/12;
+    margin-bottom: 15vh;
   }
   .testimonial5 {
     grid-row: 5;
