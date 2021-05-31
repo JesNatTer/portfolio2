@@ -93,40 +93,85 @@
   place-self: center;
 }
 
-.spin1 {
+.spincontainer1 {
+  position: relative;
   width: 100px;
   height: 100px;
-  background-color: transparent;
   grid-row: 3;
   grid-column: 8;
-  align-self: center;
+  display: grid;
+}
+
+.spin1 {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
+  margin-top: -20px;
+}
+
+.spincontainer2 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  grid-row: 1;
+  grid-column: 9;
+  display: grid;
 }
 
 .spin2 {
   width: 100px;
   height: 100px;
   background-color: transparent;
-  grid-row: 1;
-  grid-column: 9;
-  align-self: center;
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
+  margin-top: -20px;
+}
+
+.spincontainer3 {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  grid-row: 3;
+  grid-column: 10;
+  display: grid;
 }
 
 .spin3 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
-  grid-row: 3;
-  grid-column: 10;
-  align-self: center;
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
+  margin-top: -20px;
+}
+
+.icondesc1 {
+  position: absolute;
+  bottom: -1vh;
+  justify-self: center;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.icondesc2 {
+  position: absolute;
+  bottom: -1vh;
+  justify-self: center;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.icondesc3 {
+  position: absolute;
+  bottom: -1vh;
+  justify-self: center;
+  font-size: 17px;
+  font-weight: 900;
 }
 
 @keyframes spin {
@@ -137,4 +182,9 @@
   50% {
     border: 2px dashed yellow;
   }
+}
+
+.spin1 span {
+  animation: none;
+  position: absolute;
 }

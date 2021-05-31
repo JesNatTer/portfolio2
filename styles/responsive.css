@@ -64,22 +64,27 @@
   }
 
   .htmlicon,
-  .spin2 {
+  .spincontainer2 {
     grid-row: 4;
     grid-column: 8/9;
   }
 
   .pythonicon,
-  .spin1 {
+  .spincontainer1 {
     grid-row: 4;
     grid-column: 4;
   }
 
   .cssicon,
-  .spin3 {
+  .spincontainer3 {
     grid-row: 4;
     grid-column: 11/12;
-    place-self: center;
+  }
+
+  .spin1,
+  .spin2,
+  .spin3 {
+    margin-top: 25px;
   }
 
   .hproject1,
