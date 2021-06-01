@@ -33,7 +33,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 8vw;
   grid-template-rows: repeat(3, auto);
-  grid-row-gap: 40vh;
+  grid-row-gap: 70vh;
   place-items: center;
 }
 
