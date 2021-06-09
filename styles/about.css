@@ -3,8 +3,8 @@
   background-color: black;
   color: white;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 20vh auto auto 1fr 1fr;
+  grid-template-columns: repeat(12, 8.33%);
+  grid-template-rows: 20vh auto auto auto auto 1fr;
   grid-row-gap: 20px;
 }
 
@@ -47,4 +47,15 @@
   grid-column: 9/12;
   justify-self: center;
   text-shadow: 1px 1px 1px rgb(7, 7, 7);
+}
+
+.about-details-container {
+  grid-row: 5;
+  margin-top: 10px;
+  grid-column: 1/6;
+}
+
+.about-details {
+  font-size: 17px;
+  margin-bottom: 5px;
 }

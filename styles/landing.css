@@ -40,3 +40,17 @@
     transform: translateY(5px);
   }
 }
+
+.aspiring {
+  font-size: 30px;
+  color: transparent;
+  font-family: "Krona One";
+  -webkit-text-stroke: 1px white;
+  animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  50% {
+    -webkit-text-stroke: 1px yellow;
+  }
+}
