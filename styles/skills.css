@@ -72,7 +72,7 @@
 }
 
 .code-skills-container i {
-  font-size: 30px;
+  font-size: 120px;
 }
 
 .htmlicon {
@@ -95,8 +95,8 @@
 
 .spincontainer1 {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   grid-row: 3;
   grid-column: 8;
   display: grid;
@@ -109,32 +109,32 @@
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
-  margin-top: -17px;
+  margin-top: -65px;
 }
 
 .spincontainer2 {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   grid-row: 1;
   grid-column: 9;
   display: grid;
 }
 
 .spin2 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
-  margin-top: -17px;
+  margin-top: -65px;
 }
 
 .spincontainer3 {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   grid-row: 3;
   grid-column: 10;
   display: grid;
@@ -147,7 +147,7 @@
   border: 2px dashed white;
   border-radius: 50%;
   animation: spin 5s infinite linear;
-  margin-top: -17px;
+  margin-top: -65px;
 }
 
 .icondesc1 {

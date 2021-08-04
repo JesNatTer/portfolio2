@@ -102,6 +102,17 @@
     margin-top: 25px;
   }
 
+  .spincontainer1, .spincontainer2, .spincontainer3{
+    width:100px;
+    height: 100px;
+    margin-top: -17px;
+  }
+
+  .code-skills-container i {
+    font-size: 30px;
+    margin-top: -45px;
+  }
+
   .hproject1,
   .hproject2,
   .hproject3,
