@@ -33,8 +33,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 8vw;
   grid-template-rows: repeat(3, auto);
-  grid-row-gap: 70vh;
-  place-items: center;
+  grid-row-gap: 100px;
 }
 
 .testimonial1 {
@@ -42,7 +41,7 @@
   grid-column: 1/4;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto auto;
 }
 
 .testimonial1 img {
@@ -61,7 +60,7 @@
   grid-column: 5/8;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto auto;
 }
 
 .testimonial2 img {
@@ -80,7 +79,7 @@
   grid-column: 9/12;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto auto;
 }
 
 .testimonial3 img {
@@ -99,7 +98,7 @@
   grid-column: 1/4;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto auto;
 }
 
 .testimonial4 img {
@@ -118,7 +117,7 @@
   grid-column: 5/8;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 5vh auto 5vh;
+  grid-template-rows: 5vh auto auto;
 }
 
 .testimonial5 img {

@@ -163,7 +163,7 @@
   .testimonial-container {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto auto auto 10vh;
-    grid-row-gap: 35vh;
+    grid-row-gap: 100px;
   }
   .testimonial1 {
     grid-row: 1;
