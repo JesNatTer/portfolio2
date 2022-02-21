@@ -11,6 +11,7 @@ const scene = new THREE.Scene()
 const geometry = new THREE.IcosahedronGeometry(1, 32)
 const geometry2 = new THREE.IcosahedronGeometry(1, 16)
 const material = new THREE.MeshStandardMaterial()
+material.wireframe = true
 material.transparent = true
 material.blending = THREE.AdditiveBlending
 material.color= new THREE.Color('white')
